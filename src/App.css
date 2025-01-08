@@ -52,7 +52,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: .1rem solid #ccc;
 }
 
 nav a{
@@ -77,8 +76,9 @@ nav a.active {
 
 form input{
     border: .1rem solid #ccc;
-    border-radius: .3rem;
+    border-radius: 10px;
     width: 45rem;
+    height: 4rem;
     margin: 4rem 0;
     user-focus: none;
     padding: .6rem 1rem;
@@ -90,7 +90,8 @@ form input{
 form button{
     padding: .8rem 2.8rem;
     border: none;
-    border-radius: .3rem;
+    border-radius: 10px;
+    height: 4rem;
     font-weight: bold;
     cursor: pointer;
     margin-left: 2.4rem;
@@ -141,4 +142,9 @@ label{
     cursor: pointer;
     justify-self: center;
     letter-spacing: .1rem;
+}
+
+h1{
+    font-size: 40px ;
+    margin-bottom: 80px;
 }
